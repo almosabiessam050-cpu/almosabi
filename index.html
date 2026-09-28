@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المصعبي لخدمات الكمبيوتر والشبكات وكاميرات المراقبة</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            width: 100%;
+            max-width: 450px;
+            background: rgba(15, 23, 42, 0.75);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            border-radius: 24px;
+            padding: 35px 20px;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 20px rgba(59, 130, 246, 0.1);
+        }
+        .logo-container {
+            width: 110px;
+            height: 110px;
+            margin: 0 auto 18px;
+            border-radius: 50%;
+            padding: 3px;
+            background: linear-gradient(135deg, #3b82f6, #1e40af);
+            box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .logo-img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        h1 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 6px;
+            color: #f8fafc;
+            letter-spacing: 0.5px;
+        }
+        p {
+            font-size: 13px;
+            color: #94a3b8;
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+        .links-list {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+        .social-btn {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.04);
+            color: #ffffff;
+            padding: 13px 20px;
+            border-radius: 14px;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 600;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            position: relative;
+            overflow: hidden;
+        }
+        .social-btn i {
+            font-size: 20px;
+            margin-left: 15px;
+            width: 30px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .social-btn span {
+            flex-grow: 1;
+            text-align: center;
+        }
+        .social-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+        }
+        .social-btn:hover i {
+            transform: scale(1.15);
+        }
+        .whatsapp:hover { background-color: #25d366; border-color: #25d366; color: #fff; }
+        .facebook:hover { background-color: #1877f2; border-color: #1877f2; color: #fff; }
+        .instagram:hover { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); border-color: transparent; color: #fff; }
+        .telegram:hover { background-color: #229ed9; border-color: #229ed9; color: #fff; }
+        .tiktok:hover { background-color: #000000; border-color: #ff0050; color: #fff; }
+        .footer {
+            margin-top: 30px;
+            font-size: 11px;
+            color: #64748b;
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="81009.jpg" alt="شعار المصعبي لخدمات الكمبيوتر" class="logo-img">
+        </div>
+
+        <h1>المصعبي لخدمات الكمبيوتر والشبكات</h1>
+        <p>أنظمة المراقبة الرقمية، الشبكات، والصيانة التقنية المتكاملة</p>
+
+        <div class="links-list">
+            <a href="https://wa.me/967783935666" target="_blank" rel="noopener noreferrer" class="social-btn whatsapp">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>تواصل عبر الواتساب</span>
+            </a>
+            <a href="https://facebook.com/almosabi20" target="_blank" rel="noopener noreferrer" class="social-btn facebook">
+                <i class="fa-brands fa-facebook"></i>
+                <span>صفحة الفيسبوك</span>
+            </a>
+            <a href="https://instagram.com/almosabi120" target="_blank" rel="noopener noreferrer" class="social-btn instagram">
+                <i class="fa-brands fa-instagram"></i>
+                <span>إنستغرام</span>
+            </a>
+            <a href="https://t.me/almosabi20" target="_blank" rel="noopener noreferrer" class="social-btn telegram">
+                <i class="fa-brands fa-telegram"></i>
+                <span>قناة / معرف تيليجرام</span>
+            </a>
+            <a href="https://tiktok.com/@essamalmosabi7" target="_blank" rel="noopener noreferrer" class="social-btn tiktok">
+                <i class="fa-brands fa-tiktok"></i>
+                <span>حساب التيك توك</span>
+            </a>
+        </div>
+
+        <div class="footer">
+            جميع الحقوق محفوظة &copy; 2026 | المصعبي
+        </div>
+    </div>
+</body>
+</html>
